@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply underline transition-colors cursor-pointer;
+  }
+  img {
+    @apply object-cover;
+  }
+}
+
+@layer components {
+}
+
+@layer utilities {
+}
