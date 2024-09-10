@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import './index.css'
 import { FCWithChildren } from '@/shared/@types'
 import StoreProvider from './providers/store-provider'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -10,7 +13,7 @@ export const metadata: Metadata = {
 
 const RootLayout: FCWithChildren = ({ children }) => (
   <html lang='en'>
-    <body>
+    <body className={inter.className}>
       <StoreProvider>{children}</StoreProvider>
     </body>
   </html>

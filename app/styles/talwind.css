@@ -4,10 +4,17 @@
 
 @layer base {
   a {
-    @apply underline transition-colors cursor-pointer;
+    @apply underline transition-colors cursor-pointer text-blue;
   }
   img {
     @apply object-cover;
+  }
+  h6,label {
+    @apply font-medium text-sm leading-6
+  }
+
+  label {
+    @apply font-bold
   }
 }
 

@@ -14,6 +14,7 @@ const config: Config = {
       white: 'rgb(var(--white))',
       black: 'rgb(var(--black))',
       gray: 'rgb(var(--gray))',
+      blue: 'rgb(var(--blue))',
     },
     extend: {
       height: {
